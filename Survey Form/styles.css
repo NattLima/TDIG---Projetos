@@ -1,0 +1,67 @@
+html{
+    margin:0;
+    padding:0;
+    font-family: Tahoma;
+    font-size: 8px;
+  }
+  
+  body{
+    background-image: url("https://i.pinimg.com/originals/22/65/12/226512a80b06d4c70f8440af058a74d0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin:0;
+    color: #0e5529;
+    font-size: 1.4vw;
+    text-align:center; 
+    font-family: sans-serif; 
+  }
+  h1, p{
+    margin: 1em auto 0;
+    text-align: center;
+   }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input, textarea, select{
+    background-color: #4f8f67;
+  }
+  
+  input, textarea{
+    margin: 0px 0 10px 0;
+    width: 100%;
+    min-height: 1em;
+  }
+  
+  fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  input::placeholder{
+    color: #f2e8e8;
+  }
+  textarea::placeholder{
+    color: #f2e8e8;
+  }
+  .inline{
+    width: unset;
+    margin: 0 0.3em 0;
+    vertical-align: middle;
+  }
+  .inline{
+    display: inline; 
+  }

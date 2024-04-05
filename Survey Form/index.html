@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+  </head> 
+  <body>
+    <h1 id=title>Formulário de Pesquisa</h1>
+    <p id=description><i>Esse é um pequeno formulário de pesquisa!!</i></p>
+    <main>
+      <form id="survey-form">
+        <fieldset>
+        <label id="name-label">Nome:</label><br>
+        <input id="name" type="name" name="name" class="form" required placeholder="Digite o seu Nome"><br>
+
+        <label id="email-label">Email:</label><br>
+        <input id="email" type="email" name="email" class="form" required placeholder="Digite seu email"><br>
+
+        <label id="number-label">Idade: (opcional)</label><br>
+        <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="Idade"><br>
+        
+        <label id="period-label">Período: (opcional)</label><br>
+        <input id="period" type="period" name="period" class="form" min="1" max="12" placeholder="Digite seu período atual no curso"><br>
+        </fieldset>
+        <fieldset>
+        <label id="dropdown-label">Qual das opções melhor descreve sua ocupação atual?</label><br>
+        <select id="dropdown">
+            <option value="">Selecione uma opção</option><br>
+            <fieldset id="group1">
+            <option type="radio" value="op1" name="op1">Estudante</option><br>
+            <option type="radio" value="op2"  name="op2">Trabalha</option><br>
+            <option type="radio" value="op3"  name="op3">Trabalha e Estuda</option><br>
+            <option type="radio" value="op4"  name="op4">Prefere não informar</option><br>
+            <option type="radio" value="op5"  name="op5">Outro</option><br>
+            </fieldset>
+        </select>
+        <br>
+        </fieldset>
+
+        <fieldset>
+        <label id="radio">Você está satisfeito com o curso de Computação?</label><br>
+         <label for="Sim"><input type="radio" name="Satisfacao" value="Sim" class="inline">Sim</label><br>
+         <label for="MeioTermo"><input type="radio" name="Satisfacao" value="MeioTermo" class="inline" >Meio termo</label><br>
+         <label for="Nao"><input type="radio" name="Satisfacao" value="Nao" class="inline">Não</label><br>
+            <br>
+        </fieldset>
+
+        <fieldset>
+        <label id="dropdown-label">O que você mais gosta dentro do curso?</label><br>
+        <select id="dropdown">
+            <option value="">Selecione uma opção</option><br>
+            <option type="radio" value="o1" name="o1">Aulas/Conteúdo</option><br>
+            <option type="radio" value="o2" name="o2">Projetos</option><br>
+            <option type="radio" value="o3" name="o3">Professores/Colegas</option><br>
+            <option type="radio" value="o4" name="o4">Outro</option><br>
+        </select>
+        <br>
+        </fieldset>
+        <br>
+        <fieldset>
+        <div id="pergunta"><br>
+            <label id="os-label">O que você gostaria que melhorasse? (Marque quantas quiser!)</label><br>
+            <input type="checkbox" name="op1" value="More Projects" class="inline">Mais Projetos<br>
+            <input type="checkbox" name="op2" value="Opportunities" class="inline">Mais Oportunidades<br>
+            <input type="checkbox" name="op3" value="Teaching Qualities" class="inline">Qualidade de Ensino<br>
+            <input type="checkbox" name="op4" value="Classroom Quality" class="inline">Qualidade das Salas de Aula<br>
+            <input type="checkbox" name="op5" value="Student Support" class="inline">Atendimento aos Alunos<br>
+            <input type="checkbox" name="op6" value="Others" class="inline">Outro<br>
+          </div>
+          </fieldset>
+          <br><br>
+        <label id="textarea">Comentários?</label><br>
+        <textarea  id="comments" name="comments" rows="3" cols="20"  class="form" placeholder="Comentários extras"></textarea><br>
+        
+        <input id="submit" type="submit" class="form">
+
+      </form>
+    </main>
+  </body>
+</html>
