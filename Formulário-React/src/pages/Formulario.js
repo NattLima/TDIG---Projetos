@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css"; // Importa o CSS no componente do formulário
+import "../App.css"; 
 
 function Formulario() {
   return (
