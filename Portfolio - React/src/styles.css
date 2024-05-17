@@ -1,0 +1,82 @@
+body {
+  font-family: Raleway;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#welcome-section {
+  flex-direction: column;
+  width: 100%;
+  height: 40vh;
+  padding: 0;
+  background-color: #8a0d2a;
+}
+
+#projects {
+  flex-direction: column;
+  background-color: #921b35;
+  padding: 0;
+  height: 40vh;
+  width: 100%;
+  border-top: 3px solid rgba(104, 2, 50, 0.91);
+}
+
+#contact {
+  flex-direction: column;
+  width: 100%;
+  height: 40vh;
+  padding: 0;
+  background: #8a0d2a;
+  border-top: 3px solid rgba(104, 2, 50, 0.91);
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  background: rgb(104, 30, 50);
+  border-top: 3px solid rgba(104, 2, 50, 0.91);
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu__link {
+  color: black;
+  line-height: 2;
+  position: relative;
+  padding-right: 4px;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+
+.menu__link::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-radius: 2px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%) rotate(45deg);
+}
